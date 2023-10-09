@@ -14,10 +14,14 @@ st.header("This is a header")
 st.subheader("This is a subheader")
 
 # Text
-st.text("Hello GeeksForGeeks!!!")
+st.text("Test")
 
 # Markdown
 st.markdown("### This is a markdown")
 
 # success
 st.success("Success")
+
+st.write(pd.DataFrame({
+    'first column': [1, 2], 'second column': [10, 20, 30],
+}))
