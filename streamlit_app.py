@@ -23,5 +23,6 @@ st.markdown("### This is a markdown")
 st.success("Success")
 
 st.write(pd.DataFrame({
-    'first column': [1, 2], 'second column': [10, 20, 30]
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40],
 }))
